@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IKSolver - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\16550\LOCALS~1\Temp\RSP1AE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/IKSolver.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Coding\IKSolver\MotionCurve\ControlPoint.cpp"
+"D:\Coding\IKSolver\MotionCurve\ControlPointSet.cpp"
+"D:\Coding\IKSolver\MotionCurve\CubicBSplineCurve.cpp"
+"D:\Coding\IKSolver\Cylinder.cpp"
+"D:\Coding\IKSolver\MotionCurve\DOFName.cpp"
+"D:\Coding\IKSolver\IKSolver.cpp"
+"D:\Coding\IKSolver\MotionCurve\Inequality.cpp"
+"D:\Coding\IKSolver\MotionCurve\KeyFrame.cpp"
+"D:\Coding\IKSolver\MotionCurve\MarkerSeq.cpp"
+"D:\Coding\IKSolver\MotionCurve\Matrix.cpp"
+"D:\Coding\IKSolver\MotionCurve\MotionData.cpp"
+"D:\Coding\IKSolver\MotionCurve\MotionMarker.cpp"
+"D:\Coding\IKSolver\MotionCurve\Path.cpp"
+"D:\Coding\IKSolver\MotionCurve\PathPoint.cpp"
+"D:\Coding\IKSolver\MotionCurve\PathPointSet.cpp"
+"D:\Coding\IKSolver\MotionCurve\Point2D.cpp"
+"D:\Coding\IKSolver\MotionCurve\Point2DSet.cpp"
+"D:\Coding\IKSolver\Tuple.cpp"
+"D:\Coding\IKSolver\MotionCurve\Vector3D.cpp"
+"D:\Coding\IKSolver\Weight.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\16550\LOCALS~1\Temp\RSP1AE.tmp" 
+Creating temporary file "C:\DOCUME~1\16550\LOCALS~1\Temp\RSP1AF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/IKSolver.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Coding\IKSolver\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\16550\LOCALS~1\Temp\RSP1AF.tmp" 
+Creating temporary file "C:\DOCUME~1\16550\LOCALS~1\Temp\RSP1B0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/IKSolver.pdb" /debug /machine:I386 /out:"Debug/IKSolver.exe" /pdbtype:sept 
+.\Debug\ControlPoint.obj
+.\Debug\ControlPointSet.obj
+.\Debug\CubicBSplineCurve.obj
+.\Debug\Cylinder.obj
+.\Debug\DOFName.obj
+.\Debug\IKSolver.obj
+.\Debug\Inequality.obj
+.\Debug\KeyFrame.obj
+.\Debug\MarkerSeq.obj
+.\Debug\Matrix.obj
+.\Debug\MotionData.obj
+.\Debug\MotionMarker.obj
+.\Debug\Path.obj
+.\Debug\PathPoint.obj
+.\Debug\PathPointSet.obj
+.\Debug\Point2D.obj
+.\Debug\Point2DSet.obj
+.\Debug\StdAfx.obj
+.\Debug\Tuple.obj
+.\Debug\Vector3D.obj
+.\Debug\Weight.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\16550\LOCALS~1\Temp\RSP1B0.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ControlPoint.cpp
+ControlPointSet.cpp
+CubicBSplineCurve.cpp
+Cylinder.cpp
+DOFName.cpp
+IKSolver.cpp
+Inequality.cpp
+KeyFrame.cpp
+MarkerSeq.cpp
+Matrix.cpp
+MotionData.cpp
+MotionMarker.cpp
+Path.cpp
+PathPoint.cpp
+PathPointSet.cpp
+Point2D.cpp
+Point2DSet.cpp
+Tuple.cpp
+Vector3D.cpp
+Weight.cpp
+Generating Code...
+Linking...
+LINK : LNK6006: program database D:\Coding\IKSolver\Debug\IKSolver.pdb missing; performing full link
+
+
+
+<h3>Results</h3>
+IKSolver.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
